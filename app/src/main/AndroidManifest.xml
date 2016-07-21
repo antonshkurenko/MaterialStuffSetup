@@ -33,6 +33,15 @@
           android:name="android.support.PARENT_ACTIVITY"
           android:value="io.github.tonyshkurenko.materialstuffsetup.MainActivity"/>
     </activity>
+    <activity
+        android:name=".CircularRevealActivity"
+        android:label="@string/title_activity_circular_reveal"
+        android:parentActivityName=".MainActivity"
+        android:theme="@style/AppTheme.NoActionBar">
+      <meta-data
+          android:name="android.support.PARENT_ACTIVITY"
+          android:value="io.github.tonyshkurenko.materialstuffsetup.MainActivity"/>
+    </activity>
   </application>
 
 </manifest>

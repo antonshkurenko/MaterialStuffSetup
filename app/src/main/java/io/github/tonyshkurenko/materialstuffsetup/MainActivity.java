@@ -2,8 +2,8 @@ package io.github.tonyshkurenko.materialstuffsetup;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
   static final Demo[] DEMOS = new Demo[] {
       new Demo("Nav drawer activity", NavigationDrawerActivity.class),
-      new Demo("Text input layout activity", TextInputLayoutActivity.class)
+      new Demo("Text input layout activity", TextInputLayoutActivity.class),
+      new Demo("Circular reveal activity", CircularRevealActivity.class)
   };
 
   @Override protected void onCreate(Bundle savedInstanceState) {
